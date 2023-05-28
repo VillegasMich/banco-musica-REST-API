@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold ;
+}
+
+form {
+    margin-top:100px ;
+    display: flex;
+    align-items: center;
+    align-items: start;
+    flex-direction: column; 
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:#fffffc ; 
+}
+h1 {
+    color:#658fb4;
+    border-bottom: 1px solid #9dd1ff;
+    padding-bottom:30px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+input {
+    background-color: rgb(245, 246, 255);
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #9dd1ff;
+    font-family: 'Open Sans', sans-serif;
+    width: 45vh;
+    height: 3vh;
+    font-size: 2vh;
+    margin-bottom: 1px;
+    padding-left: 6px;
+
+}
+label{
+    margin-bottom: 10px;
+    color: #494747;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    background-color:#348efe;
+    color: white;
+
+}
+input:focus{
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background-color: #269aff;
+}
+span {
+    color: red;
+}
+.send:hover{
+    background-color: #269aff; 
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+img {
+    display: block;
+    width: 78px;
+    height: 78px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.App {
+    background-color: #fffffc;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+}
+.Register-Header {
+    border-top: 1px solid #9dd1ff;
+    border-bottom: 1px solid #9dd1ff;
+    padding: 30px;
+}
+.DeleteUser-Header {
+    border-top: 1px solid #9dd1ff;
+    /* border-bottom: 1px solid #9dd1ff; */
+    padding: 30px;
+}
+h1 {
+    color: #9dd1ff;
+}
+Header{
+    margin: 20px;
+}
+.Button-LogIn {
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe ;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.Button-Register {
+    border: 1px solid #348efe;
+    background-color: #348efe;
+    border-radius: 10px;
+    color: white ;
+    display: inline-block;
+    text-decoration: none;
+}
+.Button-CreateSong {
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe ;
+    display: inline-block;
+    text-decoration: none;
+    /* margin-bottom: 21.44px; */
+}
+.Button-DeleteUser {
+    border: 1px solid #348efe;
+    background-color: #348efe;
+    border-radius: 10px;
+    color: white ;
+    display: inline-block;
+    text-decoration: none;
+}
+button {
+    margin: 0px;
+    padding: 15px;
+    width: 200px;
+    background-color: white;
+    transition: background-color 200ms ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.Button-Register:hover {
+    background-color: #269aff;
+}
+.Button-DeleteUser:hover {
+    background-color: #269aff;
+}
+button:hover {
+    background-color: #e1f1ff;
+}
